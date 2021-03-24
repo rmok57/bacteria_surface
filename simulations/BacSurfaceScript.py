@@ -65,7 +65,7 @@ kappaFile = 'vonMisesFisher2D_kappa{}_n{}.txt'.format(kappa, vMF_n)
 kappaFilePath = os.path.join(mainfolder, kappaFile)
 
 # find surface and run and tumble flag from cudaFile name ======================================
-simulationType = re.search('bacteria_surface_geometry_(.+?).cu', cudaFile).group(1)
+simulationType = re.search('bacteria_surface_geometry_(.*).cu', cudaFile).group(1)
 
 if simulationType.find('run_and_tumble') == -1: # 'run_and_tumble' not found
     RTFlag = False
