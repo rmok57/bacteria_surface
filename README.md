@@ -1,2 +1,4 @@
 # bacteria_surface
-Code used in "Geometric control of bacterial surface accumulation" PRE 2019
+Simulation code for _Geometric control of bacterial surface accumulation_ (https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.052607)
+
+Developed on CUDA version 8.0
