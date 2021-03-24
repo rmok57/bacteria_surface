@@ -19,7 +19,7 @@ case_num = 1                # case number
 dt = 0.0001                 # non-dimensional time step
 time_save = 0.6             # non-dimensional time at which to output
 start_time = 0		        # non-dimensional start time of simulation
-final_time = 1.2 #2000.4		    # non-dimensional final time of simulation
+final_time = 2000.4		    # non-dimensional final time of simulation
 
 rho = 0.1                   # non-dimensional bacteria density
 
