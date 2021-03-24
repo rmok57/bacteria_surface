@@ -73,7 +73,7 @@ if simulationType.find('run_and_tumble') == -1: # 'run_and_tumble' not found
     simType = 'BD'
 else:
     RTFlag = True
-    surfaceType = re.search('(.+?)_run_and_tumble', simulationType).group(1)
+    surfaceType = re.search('(.*)_run_and_tumble', simulationType).group(1)
     simType = 'RT'
 
 # make directory ======================================
